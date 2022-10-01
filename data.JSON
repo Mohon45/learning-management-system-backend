@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Sakib Hasan",
+    "email": "sakibhasan@gmail.com",
+    "phoneNumber": "01743265789",
+    "address": "Narsingdi , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Bangla", "Math", " Science "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Imran Ali",
+    "email": "imranali10@gmail.com",
+    "phoneNumber": "01787654325",
+    "address": "Foridpur, Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Math", "Religion ", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Mitun Ray",
+    "email": "mitunray44@gmail.com",
+    "phoneNumber": "01643675683",
+    "address": "Gopalgonj , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["chemistry ", "Physics", "Biology "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Mostafizur Rahman ",
+    "email": "mustafizurrahman@gmail.com",
+    "phoneNumber": "01309876545",
+    "address": "Madaripur , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Math", "Physics", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Raju Ahmed ",
+    "email": "rajuahmed@gmail.com",
+    "phoneNumber": "01576543567",
+    "address": "Narayanganj , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["English ", "Ict", "Social Science "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Mohammad Shawon ",
+    "email": "mohammadshawon@gmail.com",
+    "phoneNumber": "01782643567",
+    "address": "Kishorganj , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Higher math", "Physics", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Hasiba Jannat ",
+    "email": "hasiba@gmail.com",
+    "phoneNumber": "01976567890",
+    "address": "Narial , Khulna ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Bangla", "Math", "English "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Sharmin Rahman ",
+    "email": "sharminrahman@gmail.com",
+    "phoneNumber": "01798767889",
+    "address": "Magura , Khulna ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Religion ", "Social Science ", "Science "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Halima Jannat ",
+    "email": "halimajannat@gmail.com",
+    "phoneNumber": "01745654567",
+    "address": "Bagerhat , Khulna ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Math", "Physics", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+
+  {
+    "name": "Nusrat moon",
+    "email": "moonnusrat@gmail.com",
+    "phoneNumber": "01634657890",
+    "address": "Gazipur , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Math", "Higher Math", "Accounting "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Tafsina Tajrin",
+    "email": "tafsinatafsina@gmail.com",
+    "phoneNumber": "01965456789",
+    "address": "Puthia, Rajshahi",
+    "designation": "Teacher",
+    "teachingSubjects": ["chemistry ", "Physics", "Ict"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Sanjida Akter",
+    "email": "sanjidaakter@gmail.com",
+    "phoneNumber": "01809876543",
+    "address": "Gopalgonj , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["bangla", "English", "Science"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Tanvir ",
+    "email": "tanvir@gmail.com",
+    "phoneNumber": "01778765789",
+    "address": "Tangail , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Accounting ", "History ", "Social Science "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Md.Mossur",
+    "email": "Monsur@gmail.com",
+    "phoneNumber": "01782630000",
+    "address": "Bagerhat , Khulna ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Math", "Physics", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Rafsan Borhan ",
+    "email": "Rafsanborhan@gmail.com",
+    "phoneNumber": "01723234563",
+    "address": "Madaripur , Dhaka",
+    "designation": "Teacher",
+    "teachingSubjects": ["Math", "Accounting", "History"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Forhad Ahmed ",
+    "email": "forhadahmed@gmail.com",
+    "phoneNumber": "01709878903",
+    "address": "Kishoreganj , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": [" Ict", "Physics", "Bangla "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Nadim Hossain ",
+    "email": "Nadimnadim@gmail.com",
+    "phoneNumber": "01812354678",
+    "address": "Narial , Khulna",
+    "designation": "Teacher",
+    "teachingSubjects": ["Religion", "Social Science ", " History "],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Rajibur Rahman ",
+    "email": "rajiburrahman@gmail.com",
+    "phoneNumber": "01582638193",
+    "address": "Magura , Khulna",
+    "designation": "Teacher",
+    "teachingSubjects": ["chemistry ", "Physics", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Eti Akter",
+    "email": "etiakter55@gmail.com",
+    "phoneNumber": "01765879086",
+    "address": "Puthia, Rajshahi",
+    "designation": "Teacher",
+    "teachingSubjects": ["Math", "Physics", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  },
+  {
+    "name": "Aklima Akter",
+    "email": "aklima444@gmail.com",
+    "phoneNumber": "01622565578",
+    "address": "Gopalgonj , Dhaka ",
+    "designation": "Teacher",
+    "teachingSubjects": ["Religion ", "Bangla", "Biggan"],
+    "teachingClass": ["6", "7", "8", "9", "10"],
+    "currentEmployee": "Sikkha Board School & Collage",
+    "position": "Assistant teacher"
+  }
+]
