@@ -4,7 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
 const teacherRoute = require("./routes/teacher.route");
-const userRoute = require("./routes/authorization.route");
+const authRoute = require("./routes/authorization.route");
 
 // database connections
 // const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.m0coh.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
@@ -23,7 +23,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api/v1/etutors/", teacherRoute);
-app.use("/api/v1/etutors/", userRoute);
+app.use("/api/v1/etutors/", authRoute);
 
 app.get("/", (req, res) => {
   res.send("E-Tutors Server is Running!");

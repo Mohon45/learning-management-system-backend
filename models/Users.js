@@ -1,6 +1,9 @@
 const mongoose = require("mongoose");
+const validator = require("validator");
+const bcrypt = require("bcryptjs");
+
 // schema design
-const UsersSchema = mongoose.Schema(
+const usersSchema = mongoose.Schema(
   {
     name: {
       type: String,
@@ -12,7 +15,26 @@ const UsersSchema = mongoose.Schema(
     },
     email: {
       type: String,
-      required: [true, "Please Provide a Valid email name"],
+      validate: [validator.isEmail, "Provide a Valid Email"],
+      trim: true,
+      lowercase: true,
+      unique: true,
+      required: [true, "Email Address is required"],
+    },
+    password: {
+      type: String,
+      required: [true, "password is required"],
+      validate: {
+        validator: (value) =>
+          validator.isStrongPassword(value, {
+            minLength: 6,
+            minLowercase: 3,
+            minNumbers: 1,
+            minUppercase: 1,
+            minSymbols: 1,
+          }),
+        message: "Password {VALUE} is not strong enough.",
+      },
     },
     phoneNumber: {
       type: String,
@@ -24,15 +46,11 @@ const UsersSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    password: {
-      type: String,
-      required: true,
-    },
     teachingSubjects: {
-      type: Array,
+      type: [String],
     },
     teachingClass: {
-      type: Array,
+      type: [String],
     },
     currentEmployee: {
       type: String,
@@ -43,12 +61,35 @@ const UsersSchema = mongoose.Schema(
     educationalQualifications: {
       type: String,
     },
+    imageURL: {
+      type: String,
+      validate: [validator.isURL, "Please provide a valid url"],
+    },
   },
   {
     timestamps: true,
   }
 );
 
-const Product = mongoose.model("Users", UsersSchema);
+usersSchema.pre("save", function (next) {
+  if (!this.isModified("password")) {
+    //  only run if password is modified, otherwise it will change every time we save the user!
+    return next();
+  }
+  const password = this.password;
 
-module.exports = Product;
+  const hashedPassword = bcrypt.hashSync(password);
+
+  this.password = hashedPassword;
+
+  next();
+});
+
+usersSchema.methods.comparePassword = function (password, hash) {
+  const isPasswordValid = bcrypt.compareSync(password, hash);
+  return isPasswordValid;
+};
+
+const Users = mongoose.model("Users", usersSchema);
+
+module.exports = Users;
