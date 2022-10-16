@@ -47,23 +47,26 @@ const usersSchema = mongoose.Schema(
       required: true,
     },
     teachingSubjects: {
-      type: [String],
-    },
-    teachingClass: {
-      type: [String],
-    },
-    currentEmployee: {
       type: String,
     },
-    position: {
+    class: {
+      type: String,
+    },
+    teachingClass: {
+      type: String,
+    },
+    currentEmployee: {
       type: String,
     },
     educationalQualifications: {
       type: String,
     },
-    imageURL: {
+    image: {
       type: String,
       validate: [validator.isURL, "Please provide a valid url"],
+    },
+    school: {
+      type: String,
     },
   },
   {
