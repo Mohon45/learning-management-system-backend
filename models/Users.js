@@ -53,7 +53,7 @@ const usersSchema = mongoose.Schema(
       type: String,
     },
     teachingClass: {
-      type: String,
+      type: Number,
     },
     currentEmployee: {
       type: String,

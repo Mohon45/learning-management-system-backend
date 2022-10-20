@@ -7,13 +7,13 @@ const { uploadImage } = require("../utils/cloudinary");
 exports.getUser = async (req, res) => {
   try {
     const { id } = req.params;
-    const queries = {};
-    if (req.query.fields) {
-      const fields = req.query.fields.split(",").join(" ");
-      queries.fields = fields;
-      console.log(fields);
-    }
-    const result = await getUserByIdService(id, queries);
+    // const queries = {};
+    // if (req.query.fields) {
+    //   const fields = req.query.fields.split(",").join(" ");
+    //   queries.fields = fields;
+    //   console.log(fields);
+    // }
+    const result = await getUserByIdService(id);
 
     res.status(200).json({
       status: "success",
