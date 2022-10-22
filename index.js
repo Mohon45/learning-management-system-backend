@@ -12,10 +12,10 @@ const intermediateQuizQuestionRoute = require("./routes/quiz/intermediate.route"
 const universityQuizQuestionRoute = require("./routes/quiz/university.route");
 
 // database connections
-// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.m0coh.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.m0coh.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 // Mongoose Connect
 mongoose
-  .connect(process.env.DATABASE_LOCAL_URI, {
+  .connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
