@@ -32,10 +32,15 @@ exports.getUser = async (req, res) => {
 exports.UpdateUser = async (req, res) => {
   try {
     const { id } = req.params;
-    const imgUrl = await uploadImage(req.files[0].path);
-    const image = imgUrl.secure_url;
+    let newUser = {};
 
-    const newUser = { ...req.body, image };
+    if (req.files[0]) {
+      const imgUrl = await uploadImage(req.files[0].path);
+      const image = imgUrl.secure_url;
+      newUser = { ...req.body, image };
+    } else {
+      newUser = req.body;
+    }
 
     // save or create
     const result = await updateUserService(id, newUser);
